@@ -1,5 +1,15 @@
 # TURTLEBOT에 Ubuntu와 ROS2 설치
 
+## 터틀봇 밧데리는 분리해서 충전
+밧테리는 터틀봇에서 빼내서 충전한다. 낀 채로 충전하면 과열될 수도 있다.<br/>
+빨간불이 꺼지고 녹색불이 들어오면 다된거다.<br/>
+![image](https://github.com/kutmslee/TURTLEBOT-Ubuntu-ROS2/assets/38107813/e805fa0d-6d9e-4646-8822-df19332d8ae6)
+
+## 터틀봇에 SMPS 직접 연결
+패기지 설치하는데 시간이 많이 걸리므로<br/>
+밧데리 충전은 시간날때 천천히 하고 충전할 때 쓰는 SMPS를 터틀봇에 직접 연결해 놓고 작업한다.
+![image](https://github.com/kutmslee/TURTLEBOT-Ubuntu-ROS2/assets/38107813/454ffa24-3058-4454-a4b6-e58e93b5aac2)
+
 ## 라즈베리파이 우분투 설치 
 
 ### ros2 배포판 있는 최신 우분투 버전 확인
