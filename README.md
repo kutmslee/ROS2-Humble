@@ -1,4 +1,4 @@
-# ROS2-turtlebot
+# TURTLEBOT에 Ubuntu와 ROS2 설치
 
 ## 라즈베리파이 우분투 설치 
 
