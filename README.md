@@ -29,7 +29,8 @@ UTF-8을 지원하지 않으면 설치한다.
 &nbsp;deb http://ports.ubuntu.com/ubuntu-ports/ mantic-security main restricted universe multiverse<br/>
 vi 끝낼 때는 :q<br/>
 ### curl(Client Url)설치 sudo apt update && sudo apt install curl -y<br/>
-### curl을 사용해서 ROS2 GPG Key 가져오기 sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg<br/>
+### curl을 사용해서 ROS2 GPG Key 가져오기<br/>
+sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg<br/>
 ### ROS2 GPG키 추가된 것을 확인한다.<br/>
 moses@moses-turtlebot:~$ cd /<br/>
 moses@moses-turtlebot:/$ cd usr/share/keyrings<br/>
