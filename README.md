@@ -62,6 +62,10 @@ sudo apt upgrade<br/>
 
 ### ROS2 설치
 moses@turtlebot:~$ sudo apt install ros-humble-desktop<br/>
+20분 걸림<br/>
+moses@turtlebot:~$ sudo apt install ros-humble-ros-base<br/>
+moses@turtlebot:~$ sudo apt install ros-dev-tools<br/>
+
 
 
 
