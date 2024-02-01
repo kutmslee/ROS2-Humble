@@ -1,4 +1,17 @@
-# ROS2-Humble
+# ROS2-turtlebot
+
+## 라즈베리파이 우분투 설치 
+### ros2 배포판 있는 최신 우분투 버전 확인
+여기서 확인 http://packages.ros.org/ros2/ubuntu/dists/<br/>
+이 글을 작성하는 현재는 Ubuntu 22.04.3 LTS (Jammy Jellyfish)가 최신버전<br/>
+### MicroSD카드 굽기
+Raspberry Pi Imager 사용해서 Ubuntu22.04 server 버전을 설치한다.<br/>
+![image](https://github.com/kutmslee/turtlebot3/assets/38107813/843848e5-7f32-474e-b15e-09a2da653a8d)<br/>
+![image](https://github.com/kutmslee/turtlebot3/assets/38107813/5ac1c503-51bf-4b5c-ae45-ec66650fb52c)<br/>
+![image](https://github.com/kutmslee/turtlebot3/assets/38107813/ab2e4a22-1bef-44b1-9d33-23d6b69ebf2e)&nbsp;
+![image](https://github.com/kutmslee/turtlebot3/assets/38107813/2c297ddd-5443-4458-9a68-332ea48c00a6)
+### PC 연결
+PC에서 우분투 열고 ssh moses@turtlebot 한다.
 
 ## locale을 확인한다.
 moses@moses-turtlebot:~$ localectl<br/>
