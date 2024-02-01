@@ -27,6 +27,7 @@ UTF-8을 지원하지 않으면 설치한다.
 ## ROS2 패키지 설치<br/>
 
 ### 시스템에 ROS2 apt repository 추가
+이걸 하지 않으면 ros-humble-desktop 설치할 때 Unable to locate package ros-humble-desktop 라는 에러가 뜬다.
 
 #### Ubuntu Universe 무료 및 오픈소스 소프트웨어 저장소 추가(안해도 됨)
 moses@turtlebot:~$ sudo add-apt-repository universe<br/>
@@ -58,7 +59,7 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-a
 #### 추가된 repository를 apt에 적용
 sudo apt update<br/>
 sudo apt upgrade<br/>
-이걸 하지 않으면 ros-humble-desktop 설치할 때 Unable to locate package ros-humble-desktop 라는 에러가 뜬다.
+
 
 
 
