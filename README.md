@@ -15,8 +15,8 @@ curl을 사용해서 ROS2 GPG Key 가져오기 sudo curl -sSL https://raw.github
 moses@moses-turtlebot:~$ cd /<br/>
 moses@moses-turtlebot:/$ cd usr/share/keyrings<br/>
 moses@moses-turtlebot:/usr/share/keyrings$ ls<br/>
-ros-archive-keyring.gpg&#09;             ubuntu-master-keyring.gpg   ubuntu-pro-esm-infra.gpg<br/>
-ubuntu-archive-keyring.gpg&#09;          ubuntu-pro-anbox-cloud.gpg  ubuntu-pro-fips.gpg<br/>
+ros-archive-keyring.gpg &#09;             ubuntu-master-keyring.gpg   ubuntu-pro-esm-infra.gpg<br/>
+ubuntu-archive-keyring.gpg &#09;          ubuntu-pro-anbox-cloud.gpg  ubuntu-pro-fips.gpg<br/>
 ubuntu-archive-removed-keys.gpg     ubuntu-pro-cc-eal.gpg       ubuntu-pro-realtime-kernel.gpg<br/>
 ubuntu-cloudimage-keyring.gpg       ubuntu-pro-cis.gpg          ubuntu-pro-ros.gpg<br/>
 ubuntu-cloudimage-removed-keys.gpg  ubuntu-pro-esm-apps.gpg<br/>
