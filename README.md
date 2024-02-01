@@ -60,12 +60,22 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-a
 sudo apt update<br/>
 sudo apt upgrade<br/>
 
-### ROS2 설치
+### ROS2 패키지 install
 sudo apt install ros-humble-desktop<br/>
 이작업은 시간이 좀 걸린다. 20분 걸림<br/>
 sudo apt install ros-humble-ros-base<br/>
 sudo apt install ros-dev-tools<br/>
 
+## ROS2 작동 테스트
+
+### setup.bash 소싱
+source /opt/ros/humble/setup.bash
+
+### node 테스트
+ros2 run demo_nodes_cpp talker<br/>
+다른 터미널 열어서<br/>
+source /opt/ros/humble/setup.bash<br/>
+ros2 run demo_nodes_py listener<br/>
 
 
 
