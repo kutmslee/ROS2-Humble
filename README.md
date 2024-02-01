@@ -13,7 +13,7 @@ Raspberry Pi Imager 사용해서 Ubuntu22.04 server 버전을 설치한다.<br/>
 ![image](https://github.com/kutmslee/turtlebot3/assets/38107813/ab2e4a22-1bef-44b1-9d33-23d6b69ebf2e)&nbsp;
 ![image](https://github.com/kutmslee/turtlebot3/assets/38107813/2c297ddd-5443-4458-9a68-332ea48c00a6)
 
-### PC 연결
+## PC 연결
 PC에서 우분투 열고 ssh moses@turtlebot 한다.
 
 ### locale을 확인(안해도 됨)
