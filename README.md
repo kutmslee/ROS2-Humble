@@ -1,4 +1,4 @@
-# TURTLEBOT3에 Ubuntu와 ROS2 설치
+# TURTLEBOT3에 Ubuntu와 ROS2 설치(SBC Setup-1)
 
 ## 터틀봇 밧데리는 분리해서 충전
 밧테리는 터틀봇에서 빼내서 충전한다. 낀 채로 충전하면 과열될 수도 있다.<br/>
